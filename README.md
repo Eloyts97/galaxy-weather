@@ -4,6 +4,10 @@
 
 Ejecutar `ng serve` en la consola de comandos en el directorio principal de la aplicación. Abrir `http://localhost:4200/` en el navegador.
 
+## Librerías usadas
+
+Para los iconos y css se han usado las librerías de JQuery, FontAwesome y Bootstrap.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.1.
 
 --------------------------------------------------------------------------------------------------------------------------------
