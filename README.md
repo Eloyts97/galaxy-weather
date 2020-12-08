@@ -1,6 +1,12 @@
 # GalaxyWeather
 
+## Ejecutar aplicación
+
+Ejecutar `ng serve` en la consola de comandos en el directorio principal de la aplicación. Abrir `http://localhost:4200/` en el navegador.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.1.
+
+--------------------------------------------------------------------------------------------------------------------------------
 
 ## Development server
 
