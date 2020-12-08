@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<header id="header" class="navbar-dark bg-dark sticky-top">
+  <div class="navbar navbar-expand-lg col-lg-10 mx-auto">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a [routerLink]="['buscar']" class="navbar-brand">
+      GALAXY WEATHER
+    </a>
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['buscar']"><fa-icon [icon]="faPlus"></fa-icon></a>
+    </li>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['lugares-guardados']">Lugares guardados</a>
+      </li>
+      <div class="dropdown-divider"></div>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['buscar']">Buscar</a>
+      </li>
+    </div>
+  </div>
+</header>
+<body class="col-lg-10 col-md-10 col-12 mx-auto">
+  <router-outlet></router-outlet>
+</body>
+<footer class="page-footer font-small">
+</footer>
+</html>

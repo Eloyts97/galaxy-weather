@@ -1,0 +1,59 @@
+/* You can add global styles to this file, and also import other style files */
+.mt {
+    margin-top: 20px !important;
+}
+
+a, a:hover {
+    color: black !important;
+    text-transform: capitalize;
+}
+
+a.nav-link {
+    color: white !important;
+}
+
+a.navbar-brand, a.navbar-brand:hover {
+    color: white !important;
+}
+
+a.nav-link:hover {
+    color: #d1d1d1;
+}
+
+#wicon {
+    max-width: 100%;
+    width: 100px;
+}
+
+li {
+    list-style: none;
+}
+
+.np {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.tmp p {
+    font-size: 16px;
+    text-align: center;
+    color: black;
+}
+
+p.actual {
+    font-size: 40px;
+    margin-bottom: 0;
+    line-height: 40px;
+}
+
+strong.col-lg-4.col-md-4.col-4 {
+    padding-left: 0;
+}
+
+strong.col-lg-4.col-md-4.col-4.pl {
+    padding-left: 15px !important;
+}
+
+a.btn.btn-dark.white {
+    color: white !important;
+}

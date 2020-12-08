@@ -1,0 +1,10 @@
+<div class="col-lg-6 col-md-6 col-xs-12 mt">
+    <h1>Busca un lugar</h1>
+    <form #BuscarCiudad="ngForm" (ngSubmit)="onSubmit(BuscarCiudad)" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="city">Ciudad</label>
+            <input type="text" class="form-control" id="city" name="city" ngModel required>
+        </div>
+        <button type="submit" class="btn btn-dark" [disabled]="!BuscarCiudad.form.valid">Enviar</button>
+    </form>
+</div>

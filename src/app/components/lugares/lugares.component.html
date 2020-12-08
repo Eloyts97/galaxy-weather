@@ -1,0 +1,6 @@
+<h1>Lugares consultados:</h1>
+<ul class="col-lg-6 col-md-6 col-12" *ngFor="let city of cities">
+    <li>
+      <a [routerLink]="['/home/' + city]" class="btn btn-dark white">{{city}}</a>
+    </li>
+</ul>
